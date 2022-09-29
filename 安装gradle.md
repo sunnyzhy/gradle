@@ -5,7 +5,7 @@
 ## 安装
 
 1. 下载 ```binary-only```
-2. 解压到任意目录并重命名，比如: ```D:/develop/gradle```
+2. 解压到任意目录并重命名，比如: ```D:\develop\gradle```
 3. 配置环境变量:
    1. 新建系统变量，名称: ```GRADLE_HOME; 值: ```D:\develop\gradle```
    2. 在 ```Path``` 里添加 ```%GRADLE_HOME%\bin```
@@ -16,7 +16,7 @@
 
 在 ```D:\develop\gradle\init.d``` 目录下新建 ```init.gradle```，内容如下:
 
-```
+```gradle
 allprojects{
     repositories {
         def ALIYUN_REPOSITORY_URL = 'https://maven.aliyun.com/repository/central/'
